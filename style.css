@@ -1,0 +1,85 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url(img/pawel-czerwinski-ypqyuASFNps-unsplash.jpg);
+    background-size: 100vw;
+    background-repeat: no-repeat;
+    background-position: top left;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;  
+}
+.logo{
+    width: 150px;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+/* brings the logo and nav bar in the same line */
+ul{
+    display:flex;
+    list-style: none;
+    overflow: hidden;
+    margin: 10px 20px;
+}
+li{
+    float: right;
+}
+li a{
+    display: block;
+    text-align: center;
+    padding: 15px 19px;
+    color: #fff;;
+    text-decoration: none;
+    font-size: 20px;
+}
+li a:hover{
+    color: #fff;
+    opacity: 1;
+}
+p a:hover{
+    display: block;
+    text-align: center;
+    padding: 2px 3px;
+    overflow: hidden;
+}
+#header{ 
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: right center;
+}
+.header-text{
+    margin-top: 20%;
+    font-size: 40px;
+    color: #fff;
+}
+.header-text h1{
+    font-size: 60px;
+    margin-top: 10px;
+}
+.header-text h1 span{
+    color:crimson;
+}
+/* --------------ABOUT------------- */
+#about{
+    color: #fff;
+    font-size: 20px;
+    font-style: bold;
+}
+.row{
+    display: flex;
+    padding: 0;
+    justify-content: left;
+}
+.about-col-1 img{
+    flex-basis: 60%;
+}
+.about-col-2{
+    flex-basis: auto;
+}
+.about-col-2 p{
+    color: #fff;
+    font-size: medium;
+}
